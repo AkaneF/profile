@@ -1,0 +1,113 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+body {
+  background-color: #e4f2f0;
+  font-family:'Open Sans', 'Sans Serif';
+  font-weight: 400px;
+  color: #222831
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 22px;
+  color: #6e2142;
+}
+
+h2 {
+  color: #6e2142;
+  font-size: 20px;
+}
+
+.container{
+  text-align: center;
+/*  width: 500px;*/
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #f7f7f7;
+  margin: 20px 20px;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+.list_inline > li{
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#profile_img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#lewagon_link {
+  color: #faf5ef;
+  background-color: #00a79d;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.social{
+  font-size: 50px;
+}
+
+i:hover {
+  color: #293462;
+}
+
+#lewagon_link:hover {
+  background-color: #293462;
+}
+
+#github {
+  color: #696464;
+}
+
+#instagram{
+  color: #a72461;
+}
+
+#twitter{
+  color: #00acee;
+}
+
+
+
+
+
+
+
